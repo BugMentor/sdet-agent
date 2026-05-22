@@ -1,0 +1,37 @@
+# =============================================================================
+# SDET Command Center - Root Monorepo .gitignore
+# =============================================================================
+# backend/ and frontend/ are git submodules - their contents are not tracked here
+
+# Editor / IDE
+.idea/
+.vscode/
+.ruff_cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Secrets (NEVER commit)
+.env
+.env.local
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.yaml
+
+# Generated / Misc
+.specify/
+.opencode/
+*.blend1
+*.blend2
+nyc_heatmap_cinematic.blend
+*.backup.*
+test_upload.txt
+debugging/screenshots/
+*.png
+
+# Logs
+*.log
