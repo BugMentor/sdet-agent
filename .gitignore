@@ -35,3 +35,4 @@ debugging/screenshots/
 
 # Logs
 *.log
+node_modules

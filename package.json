@@ -1,0 +1,27 @@
+{
+  "name": "sdet-agent",
+  "version": "2.0.0",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "dev": "yarn workspace sdet-command-center dev",
+    "dev:backend": "yarn workspace sdet-backend agent",
+    "build": "yarn workspace sdet-command-center build",
+    "start": "yarn workspace sdet-command-center start",
+    "lint": "yarn workspace sdet-command-center lint",
+    "test": "yarn workspace sdet-backend test:all",
+    "test:e2e": "yarn workspace sdet-command-center test:e2e",
+    "test:all": "yarn test && yarn test:e2e",
+    "pipeline": "yarn workspace sdet-backend pipeline:sail",
+    "ingest": "yarn workspace sdet-backend ingest:atlassian",
+    "typecheck": "yarn workspace sdet-backend typecheck && yarn workspace sdet-command-center typecheck",
+    "sail:start": "sail spark server --port 50051",
+    "infra:up": "docker compose -f backend/docker-compose.yml up -d",
+    "infra:down": "docker compose -f backend/docker-compose.yml down",
+    "god:deploy": "bash backend/scripts/god_mode_deploy.sh",
+    "clean": "yarn workspaces run clean || true && rm -rf node_modules"
+  }
+}
