@@ -11,6 +11,9 @@
 - Always run lint/typecheck after making changes
 - Never commit secrets or credentials
 - Test that changes work before considering them complete
+- **ALL TESTS MUST PASS WITH ZERO SKIPS. ANY FAILURE OR SKIP IS A BLOCKER - FIX IT BEFORE COMMIT.**
+- **If the test is "intentionally broken", it must be rewritten to pass - test the system's resilience, not its failure.**
+- **`pytest.skip()` is FORBIDDEN. Every test must either pass or be deleted.**
 
 ## Constitution: Telemetry Stack
 
