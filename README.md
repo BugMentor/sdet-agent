@@ -724,3 +724,37 @@ curl -s http://localhost:3005
 <p align="center">
   Built with ❤️ for SDET Command Center
 </p>
+
+---
+
+## 🤝 Contributing
+
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+---
+
+## 💰 Funding & Support
+
+**AI-Mentor** is an open-source project developed by [BugMentor](https://bugmentor.com). We are dedicated to building privacy-focused, vendor-lock-in-free developer tools.
+
+### 🏆 Become a Sponsor (Open Collective)
+
+This is the best way to support the project if you want public recognition on our README and website.
+
+**[Click here to Donate via Open Collective](https://opencollective.com/bugmentor-arg/projects/scrumer/donate)**
+
+### ⚡ Direct Support (Wise)
+
+If you prefer to support the lead developer directly with lower fees, you can scan the QR code below or use the direct link.
+
+<a href="https://wise.com/pay/me/matiasm155">
+<img src="assets/img/wise-qr.jpg" width="200" alt="Scan to pay via Wise">
+</a>
+
+**[Send a Direct Contribution via Wise](https://wise.com/pay/me/matiasm155)**
