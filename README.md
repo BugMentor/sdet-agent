@@ -781,6 +781,10 @@ This is the best way to support the project if you want public recognition on ou
 
 If you prefer to support the lead developer directly with lower fees, you can scan the QR code below or use the direct link.
 
+<a href="https://wise.com/pay/me/matiasm155">
+<img src="assets/img/wise-qr.jpg" width="200" alt="Scan to pay via Wise">
+</a>
+
 **[Send a Direct Contribution via Wise](https://wise.com/pay/me/matiasm155)**
 
 ---
