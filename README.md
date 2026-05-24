@@ -1,41 +1,9 @@
-# SDET Command Center - Medallion Architecture Pipeline
+# SDET Command Center - Monorepo
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Next.js-14-000000?style=flat&logo=next.js&logoColor=white" alt="Next.js">
-  <img src="https://img.shields.io/badge/Ollama%20SDK-latest-000000?style=flat&logo=ollama" alt="Ollama SDK">
-  <img src="https://img.shields.io/badge/Playwright-2.5-000000?style=flat&logo=playwright&logoColor=white" alt="Playwright">
-  <img src="https://img.shields.io/badge/MinIO-FF6F00?style=flat&logo=minio&logoColor=white" alt="MinIO">
-  <img src="https://img.shields.io/badge/Ollama-latest-FF4081?style=flat&logo=ollama" alt="Ollama">
-  <img src="https://img.shields.io/badge/Llama%203.2-1b-FF6F00?style=flat" alt="Llama 3.2">
-  <img src="https://img.shields.io/badge/Mistral-7B-FF4081?style=flat" alt="Mistral">
-  <img src="https://img.shields.io/badge/OpenTelemetry-latest-28a745?style=flat&logo=opentelemetry" alt="OpenTelemetry">
-  <img src="https://img.shields.io/badge/Python-3.11-3776AB?style=flat&logo=python" alt="Python">
-  <img src="https://img.shields.io/badge/Apache%20Spark-3.5-FFB74D?style=flat&logo=apache-spark" alt="Apache Spark">
-  <img src="https://img.shields.io/badge/Delta%20Lake-3.1.0-1E88E5?style=flat&logo=delta-lake&logoColor=white" alt="Delta Lake">
-  <img src="https://img.shields.io/badge/Jira%20MCP-latest-0052CC?style=flat" alt="Jira MCP">
-  <img src="https://img.shields.io/badge/PostgreSQL-15-336791?style=flat&logo=postgresql&logoColor=white" alt="PostgreSQL">
-  <img src="https://img.shields.io/badge/TypeScript-5.0-3178C6?style=flat&logo=typescript&logoColor=white" alt="TypeScript">
-</p>
+An enterprise-grade **SDET Command Center** for QA and test automation using a Medallion Architecture pipeline. This monorepo manages separate repositories for the frontend and backend services:
 
-An enterprise-grade **SDET Command Center** for QA and test automation using Medallion Architecture pipeline with Next.js 14, Ollama SDK, Playwright, Jira MCP integration, Local Ollama (llama3.2 + mistral), and MinIO object storage.
-
----
-
-## Table of Contents
-
-1. [Architecture Overview](#architecture-overview)
-2. [Tech Stack](#tech-stack)
-3. [Infrastructure](#infrastructure)
-4. [Data & Model Flow](#data-and-model-flow)
-5. [Web App Architecture](#web-app-architecture)
-6. [Getting Started](#getting-started)
-7. [Pipeline Components](#pipeline-components)
-8. [Testing Pyramid](#testing-pyramid)
-9. [Deployment](#deployment)
-10. [Troubleshooting](#troubleshooting)
-11. [API References](#api-references)
-
----
+- **Frontend**: [BugMentor/sdet-agent-frontend](https://github.com/BugMentor/sdet-agent-frontend)
+- **Backend**: [BugMentor/sdet-agent-backend](https://github.com/BugMentor/sdet-agent-backend)
 
 ## Architecture Overview
 
