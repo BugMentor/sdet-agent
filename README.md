@@ -5,6 +5,21 @@ An enterprise-grade **SDET Command Center** for QA and test automation using a M
 - **Frontend**: [BugMentor/sdet-agent-frontend](https://github.com/BugMentor/sdet-agent-frontend)
 - **Backend**: [BugMentor/sdet-agent-backend](https://github.com/BugMentor/sdet-agent-backend)
 
+## Table of Contents
+
+1. [Architecture Overview](#architecture-overview)
+2. [Infrastructure](#infrastructure)
+3. [Data & Model Flow](#data-and-model-flow)
+4. [Web App Architecture](#web-app-architecture)
+5. [Tech Stack](#tech-stack)
+6. [Getting Started](#getting-started)
+7. [Pipeline Components](#pipeline-components)
+8. [Testing Pyramid](#testing-pyramid)
+9. [Deployment](#deployment)
+10. [Troubleshooting](#troubleshooting)
+11. [API References](#api-references)
+12. [Credits](#credits)
+
 ## Architecture Overview
 
 ### High-Level System Architecture
