@@ -729,7 +729,7 @@ curl -s http://localhost:3005
 
 ---
 
-## 🤝 Contributing
+## 🤝 Contributing {#contributing}
 
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
@@ -741,7 +741,7 @@ Contributions are what make the open-source community such an amazing place to l
 
 ---
 
-## 💰 Funding & Support
+## 💰 Funding & Support {#funding--support}
 
 **AI-Mentor** is an open-source project developed by [BugMentor](https://bugmentor.com). We are dedicated to building privacy-focused, vendor-lock-in-free developer tools.
 
