@@ -1,6 +1,6 @@
 [submodule "backend"]
 	path = backend
-	url = https://github.com/bugmentor/sdet-agent-backend.git
+	url = https://github.com/BugMentor/sdet-agent-backend.git
 [submodule "frontend"]
 	path = frontend
-	url = https://github.com/bugmentor/sdet-agent-frontend.git
+	url = https://github.com/BugMentor/sdet-agent-frontend.git
