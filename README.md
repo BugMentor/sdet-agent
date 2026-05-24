@@ -755,8 +755,6 @@ curl -s http://localhost:3005
 
 ---
 
----
-
 ## Contributing
 
 🤝 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -784,3 +782,9 @@ This is the best way to support the project if you want public recognition on ou
 If you prefer to support the lead developer directly with lower fees, you can scan the QR code below or use the direct link.
 
 **[Send a Direct Contribution via Wise](https://wise.com/pay/me/matiasm155)**
+
+---
+
+<p align="center">
+  Built with ❤️ for SDET Command Center
+</p>
