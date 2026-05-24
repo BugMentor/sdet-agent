@@ -19,6 +19,8 @@ An enterprise-grade **SDET Command Center** for QA and test automation using a M
 10. [Troubleshooting](#troubleshooting)
 11. [API References](#api-references)
 12. [Credits](#credits)
+13. [Contributing](#contributing)
+14. [Funding & Support](#funding--support)
 
 ## Architecture Overview
 
