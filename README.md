@@ -118,8 +118,10 @@ graph TD
         Ollama("Ollama<br/>:11434")
         MLflow("MLflow<br/>:5001")
         Web("Next.js<br/>:3005")
-        Grafana("Grafana<br/>:3000 :3001")
-        Spark("Spark Master<br/>:9080")
+        Grafana("Grafana<br/>:3002")
+        Loki("Loki<br/>:3100")
+        Tempo("Tempo<br/>:3200")
+        Mimir("Mimir<br/>:9009")
         OTel("OTel Collector<br/>:4317 :4318")
     end
 ```
@@ -128,7 +130,10 @@ graph TD
 
 | Service | Port | Image | Credentials | Purpose |
 |---------|------|-------|-------------|---------|
-| **Grafana** | 3001 | grafana/grafana | admin/admin123 | Dashboards & visualization |
+| **Grafana** | 3002 | grafana/grafana | admin/admin123 | Dashboards & visualization |
+| **Mimir** | 9009 | grafana/mimir | (no auth) | Metrics storage |
+| **Loki** | 3100 | grafana/loki | (no auth) | Log aggregation |
+| **Tempo** | 3200 | grafana/tempo | (no auth) | Distributed tracing |
 | **MinIO Console** | 9001 | minio/minio | minioadmin/minioadmin123 | S3 object storage |
 | **MinIO API** | 9000 | minio/minio | minioadmin/minioadmin123 | S3 API |
 | **PostgreSQL** | 5434 | postgres:15 | postgres/postgres | Jira data + MLflow |
@@ -137,7 +142,6 @@ graph TD
 | **Spark Master** | 7077 / 9080 | bitnami/spark:3.5 | (no auth) | Distributed compute engine |
 | **OTel Collector** | 4317 | otel/opentelemetry-collector | (no auth) | Telemetry & Trace collection |
 | **Next.js** | 3005 | node:18-alpine | (no auth) | Agentic UI |
-| **Prometheus** | 9090 | prom/prometheus | (no auth) | Metrics |
 | **SonarQube** | 9005 | sonarqube:10.4 | (no auth) | Static Code Analysis |
 
 ### Quick Start
