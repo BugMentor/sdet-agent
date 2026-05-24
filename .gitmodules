@@ -1,6 +1,6 @@
 [submodule "backend"]
 	path = backend
-	url = ./backend
+	url = https://github.com/bugmentor/backend.git
 [submodule "frontend"]
 	path = frontend
-	url = ./frontend
+	url = https://github.com/bugmentor/frontend.git
