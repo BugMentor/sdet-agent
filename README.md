@@ -769,13 +769,7 @@ curl -s http://localhost:3005
 
 ## Funding & Support
 
-💰 **AI-Mentor** is an open-source project developed by [BugMentor](https://bugmentor.com). We are dedicated to building privacy-focused, vendor-lock-in-free developer tools.
-
-### 🏆 Become a Sponsor (Open Collective)
-
-This is the best way to support the project if you want public recognition on our README and website.
-
-**[Click here to Donate via Open Collective](https://opencollective.com/bugmentor-arg/projects/scrumer/donate)**
+💰 **SDET Command Center** is an open-source project developed by [BugMentor](https://bugmentor.com). We are dedicated to building privacy-focused, vendor-lock-in-free developer tools.
 
 ### ⚡ Direct Support (Wise)
 
