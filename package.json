@@ -19,6 +19,7 @@
     "ingest": "yarn workspace sdet-backend ingest:atlassian",
     "typecheck": "yarn workspace sdet-backend typecheck && yarn workspace sdet-command-center typecheck",
     "sail:start": "sail spark server --port 50051",
+    "up": "bash scripts/up.sh",
     "infra:up": "docker compose -f backend/docker-compose.yml up -d",
     "infra:down": "docker compose -f backend/docker-compose.yml down",
     "god:deploy": "bash backend/scripts/god_mode_deploy.sh",

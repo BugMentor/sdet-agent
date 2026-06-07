@@ -27,7 +27,6 @@ secrets.yaml
 .opencode/
 *.blend1
 *.blend2
-nyc_heatmap_cinematic.blend
 *.backup.*
 test_upload.txt
 debugging/screenshots/
